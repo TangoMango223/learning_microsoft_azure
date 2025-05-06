@@ -1,0 +1,3 @@
+azure-ai-contentsafety
+azure-ai-contentsafety[groundedness]
+python-dotenv
