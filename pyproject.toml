@@ -1,0 +1,20 @@
+[project]
+name = "azure-learning-requirements"
+version = "0.1.0"
+description = "Packages needed to run this repo, of learning tutorials I did with Microsoft Learn and Azure"
+authors = [
+    {name = "Christine Tang", email = "tang.c.christine@gmail.com"}
+]
+license = {text = "N/A"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "python-dotenv"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

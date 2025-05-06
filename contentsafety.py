@@ -246,8 +246,10 @@ if __name__ == "__main__":
     # print(a)
 
     # Test text analysis
-    sample_text = "I wanna punch a tree"
-    result = analyze_text(sample_text)
+    sample_text_smut = """
+    I want to punch a tree
+    """
+    result = analyze_text(sample_text_smut)
     if result:
         print("\nText Analysis Results:")
         print(json.dumps(result, indent=2))
